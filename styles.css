@@ -3,6 +3,7 @@
   padding: 0px;
 }
 .sunnysideHeader {
+  color: white;
   text-align: left;
   /* font-size: large; */
 }
@@ -12,7 +13,7 @@
 a:hover {
   border: 3px solid black;
   border-radius: 20px;
-  background-color: white;
+  background-color: blue;
 }
 nav {
   text-align: right;
@@ -25,40 +26,42 @@ a {
   color: black;
 }
 .header {
+  color: white;
   margin-top: 75px;
-  font-size: large;
+  font-size: 4em;
   text-align: center;
   font-family: "Times New Roman", Times, serif;
 }
 
 .sunnysideHeader {
   font-size: 100px;
-  border: 2px solid white;
+  /* border: 2px solid white; */
 }
 .sunny {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid green;
+  /* border: 2px solid green; */
   width: 100%
 }
 .sunnylink {
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 .container1 {
-  border: 5px solid green;
+  background-repeat: no-repeat;
+  /* border: 5px solid green; */
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 #item1 {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   background-image: url("images/image-header.jpg");
   height: 700px;
   background-position: center;
 }
 
 .item2 {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   background-color: white;
   height: 100%;
   display: flex;
@@ -70,12 +73,13 @@ a {
   background-position: center;
   border: 2px solid yellow;
 }
-.item4{ background-image: url("images/image-stand-out.jpg");
+.item4{ 
+  background-image: url("images/image-stand-out.jpg");
   background-position: ce;
-   border: 2px solid pink;
+  border: 2px solid pink;
  }
 .item5 {
-  border:2px solid orange;
+  /* border:2px solid orange; */
   background-color: white;
   height: 100%;
   display: flex;
@@ -83,7 +87,7 @@ a {
   align-items: center;
 }
 .item6{ 
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   background-image: url( "images/image-graphic-design.jpg");
   height: 600px;
   background-position: center;
@@ -93,12 +97,11 @@ a {
   align-items: end;
 }
 .graphicdesign{
-  border: 2px solid brown;
 padding-bottom: 20%;
 }
 
 .item7{
-  border: 2px solid magenta;
+  /* border: 2px solid magenta; */
   background-image: url("images/image-photography.jpg");
   height: 600px;
   background-position: center;
@@ -108,10 +111,11 @@ justify-content: center;
 align-items: end;
 }
 .photography{
-  border: 2px solid brown;
 padding-bottom: 20%;
 }
-img{border-radius: 100px 100px;}
+img{
+  border-radius: 100px 100px;
+}
 #container2items{
 display: grid;
 grid-template-columns: 30% 30% 30%;
@@ -122,8 +126,9 @@ text-align: center;
 text-align: center;
 padding-top: 50px;
 }
-#container3{display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr;
+#container3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 #container3 img{
 border-radius: 0px 0px;
@@ -132,7 +137,7 @@ height: 100%;
 padding-top: 50px;
 }
 #container4{
-  padding-top: 50px;
+padding-top: 50px;
 text-align: center;
 background-color: aquamarine;
 }
@@ -141,11 +146,15 @@ background-color: aquamarine;
   font-size: large;
 color: green;
 }
+
 a{
-  color: green;
+  color: white;
 text-decoration: none;
 padding-inline: 30px;
 }
 .footerImages{
   padding-top: 100px;
+}
+.extrafont{
+  font-size: 2em;
 }
