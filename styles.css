@@ -9,11 +9,14 @@
 }
 .about, .services, .project, .contacts{
   margin-right: 30px;
+  text-decoration: none;
+  color: black;
 }
 a:hover {
   border: 3px solid black;
   border-radius: 20px;
   background-color: blue;
+  padding: 10px 10px;
 }
 nav {
   text-align: right;
@@ -22,8 +25,8 @@ nav {
 }
 a {
   /* padding-inline: 20px; */
-  text-decoration: none;
-  color: black;
+  /* text-decoration: none; */
+  /* color: black; */
 }
 .header {
   color: white;
@@ -143,8 +146,9 @@ background-color: aquamarine;
 }
 
 .footer{
-  font-size: large;
+font-size: 3em;
 color: green;
+margin-top: 3%;
 }
 
 a{
@@ -152,9 +156,31 @@ a{
 text-decoration: none;
 padding-inline: 30px;
 }
-.footerImages{
-  padding-top: 100px;
+.footerIcons{
+  margin-top: 5%;
+  cursor: pointer;
 }
 .extrafont{
   font-size: 2em;
 }
+.footerNav{
+  color: green;
+  font-weight: bold;
+  margin-top: 3%;
+}
+svg{
+margin-left: 50%;
+margin-top: 5%;
+}
+.learnmore1{text-decoration-line: underline;
+text-decoration-color: yellow;
+text-decoration-thickness: 50%;
+margin-top: 10%;
+}
+.learnmore2{text-decoration-line: underline;
+  text-decoration-color: brown;
+  text-decoration-thickness: 50%;
+  margin-top: 10%;
+  }
+.learnmore1, .learnmore2{ cursor: pointer;}
+.headingdescription{margin-top: 10%;}
